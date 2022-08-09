@@ -6,7 +6,7 @@
 // Using the assignment operator (=).
 // (variable) = (value we want to assign)
 
-const luna = luna;
+const luna = 'Luna';
 
 
 // 2. How do we change the value of a variable?
@@ -29,8 +29,8 @@ const array = [1, 3, 5];
 // 3. How do we assign an existing variable to a new variable:
 // First, create the first variable and assign its starting value. Second, declare the new variable and assign its value as the first variable.
 
-let firstVariable = 12;
-let secondVariable = firstVariable;
+let firstVar = 12;
+let secondVar = firstVar;
 
 
 // 4. Remind me, what are 'declare', 'assign', and 'define'?
@@ -44,3 +44,52 @@ let secondVariable = firstVariable;
 
 
 // 6. 75% planning, 25% coding.
+
+
+
+// SECTION - Strings
+
+// 1. Create a variable called firstVariable.
+let firstVariable;
+
+// 1A. Assign it the value of the string "Hello World".
+firstVariable = 'Hello World';
+
+// 1B. Change the value of this variable to some number.
+firstVariable = 10;
+
+// 1C. Store the value of firstVariable in a new variable called secondVariable.
+let secondVariable = firstVariable;
+
+// 1D. Change the value of secondVariable to any string.
+secondVariable = 'My name is Jonathan';
+
+// 1E. What is the value of firstVariable?
+// 10.
+
+
+// 2. Create a variable called yourName and set it equal to your name as a string. Then, write an expression that takes the string "Hello, my name is" and the variable yourName so that it returns a new string with them concatenated.
+
+const yourName = 'Jonathan';
+
+const introSelf = 'Hello, my name is ' + yourName;
+console.log(introSelf);
+
+// NOTE - An expression is a block of code that evaluates to a value. A statement is any block of code that is performing some action.
+// https://www.educative.io/answers/what-are-expressions-in-javascript
+
+// All expressions are statements, but not all statements are expressions.
+// Conceptually speaking, there are two kinds of expressions: those that perform some sort of assignmetn and those that evaluate to a value.
+// For example, let x = 10 is an expression that performs an assignement. The expression itself evaluates to 10.
+// The expressio 10 + 9 simply evaluates to 19. This kind of expression makes use of simple operators.
+
+// There are five primary categories of expression in JavaScript:
+// 1. Arithmetic - used arithmetic operators (+ - * / %)
+// 2. String - using string operators and evaluates to a character string.
+// 3. Logical - evaluates to a boolean value of either True or False using boolean operators.
+// 4. Primary expressions - consists of basic keywords and expressions.
+// 5. Left-hand side expression.
+
+
+
+// SECTION
