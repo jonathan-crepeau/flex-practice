@@ -254,3 +254,10 @@ const canDrive = function(person) {
 // 3. What real-life thing could you model with an array.
 // The age of every individaul in your family or friend group.
 
+
+
+// SECTION - Arrays: Easy Does It
+
+// 1. Create an array that contains three quotes and store it in a variable called quotes:
+
+const quotes = ['Fear is the mind killer.', 'To infinity and beyond!', 'What\'s that smell? Manflesh!'];
