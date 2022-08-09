@@ -260,4 +260,21 @@ const canDrive = function(person) {
 
 // 1. Create an array that contains three quotes and store it in a variable called quotes:
 
-const quotes = ['Fear is the mind killer.', 'To infinity and beyond!', 'What\'s that smell? Manflesh!'];
+// const quotes = ['Fear is the mind killer.', 'To infinity and beyond!', 'What\'s that smell? Manflesh!'];
+
+
+
+// SECTION - Arrays: Accessing Elements
+
+// Given the following array 'const randomThings = [1, 10, 'Hello", true]', do the following:
+
+const randomThings = [1, 10, "Hello", true];
+
+// 1. How do you access the 1st element in the array?
+console.log(randomThings[0]);
+
+// 2. Change the value of "Hello to "World":
+// NOTE - Two options:
+// randomThings[2] = "World";
+// randomThings.splice(2, 1, 'World');
+// console.log(randomThings);
