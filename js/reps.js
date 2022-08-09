@@ -342,4 +342,21 @@ const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
 
 
 
-// SECTION
+// SECTION - Control Flow: Monkey in the Middle
+
+// Write an if/else if/else statement that consoles log 'littlenum' if less than 5, console logs 'big num' if more than 10, otherwise console logs 'monkey'.
+
+// let myVariable = 5;
+
+// const littleBigOrMonkey = (inputNum) => {
+//     if (inputNum < 5) {
+//         console.log('Little number.');
+//     } else if (inputNum > 10) {
+//         console.log('Big number.');
+//     } else {
+//         console.log('monkey.');
+//     }
+// }
+
+// littleBigOrMonkey(myVariable);
+
