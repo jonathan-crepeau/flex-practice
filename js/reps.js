@@ -182,3 +182,20 @@ const canDrive = function(person) {
 //         console.log(a)
 //     }
 // }
+
+
+
+// SECTION - LOOPS: Give Me Five
+
+// 1. For the numbers 0 - 100, print out "I found (number), high five!" if the number is a multiple of 5.
+// NOTE - Messages will only print for both (when were not using a combined && operator)if we define two separate 'if' statements. An 'else if' statement will only print for one.
+// for (let b = 0; b <= 100; b++) {
+//     // if (b % 3 == 0 && b % 5 == 0) {
+//     //     console.log('I found a ' + b + ', high five & three is a crowd!');
+//     // } 
+//     if (b % 5 == 0) {
+//         console.log('I found a ' + b + ', high five!');
+//     } if (b % 3 == 0) {
+//         console.log('I found a ' + b + ', three is a crowd!');
+//     }
+// }
