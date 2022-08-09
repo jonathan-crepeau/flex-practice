@@ -325,4 +325,21 @@ const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
 
 
 
-// SECTION - 
+// SECTION - Control Flow: Biggie Smalls
+
+// 1. Create a variable that has an integer.
+// let myVariable = 99;
+
+// const relationTo100 = function(inputNum) {
+//     if (inputNum < 100) {
+//         console.log('Little number.');
+//     } else {
+//         console.log('Big number.')
+//     }
+// }
+
+// relationTo100(myVariable);
+
+
+
+// SECTION
