@@ -199,3 +199,22 @@ const canDrive = function(person) {
 //         console.log('I found a ' + b + ', three is a crowd!');
 //     }
 // }
+
+
+
+// SECTION - LOOPS: Savings Account
+
+// 1. Write code that will save the sum of all the numbers between 1-10 to a variable called bank_account.
+
+// NOTE - No declaring an initial numerical value (in this case zero) will return a result of NaN when we console.log below:
+// let bank_account = 0;
+
+// for (let c = 0; c <= 10; c++) {
+//     bank_account += c;
+// }
+
+// for (let d = 0; d <= 100; d++) {
+//     bank_account += (d * 2);
+// }
+
+// console.log(bank_account);
