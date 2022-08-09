@@ -133,3 +133,20 @@ function mooIfCow(creature) {
 
 // mooIfCow(animal)
 
+
+
+// SECTION - Driver's Ed
+
+// 1. Create a variable that holds a person's age. Be semantic.
+
+let licenseAge = 16;
+
+const canDrive = function(person) {
+    if (person > 16) {
+        console.log('Here are the keys!')
+    } else {
+        console.log('Sorry, you are too young.')
+    }
+}
+
+canDrive(licenseAge);
