@@ -73,7 +73,6 @@ secondVariable = 'My name is Jonathan';
 const yourName = 'Jonathan';
 
 const introSelf = 'Hello, my name is ' + yourName;
-console.log(introSelf);
 
 // NOTE - An expression is a block of code that evaluates to a value. A statement is any block of code that is performing some action.
 // https://www.educative.io/answers/what-are-expressions-in-javascript
@@ -102,15 +101,35 @@ const c = 57;
 const d = 16;
 const e = 'Kevin';
 
-console.log(a < b);
-console.log(c > d);
-console.log('Name' === 'Name');
+// console.log(a < b);
+// console.log(c > d);
+// console.log('Name' === 'Name');
 
-console.log(true || false);
-console.log(false || false || false || false || false || true);
+// console.log(true || false);
+// console.log(false || false || false || false || false || true);
 
-console.log(false === false);
-console.log(e === 'Kevin');
-console.log(a + b == c);
-console.log(a * a == d);
-console.log(48 == '48');
+// console.log(false === false);
+// console.log(e === 'Kevin');
+// console.log(a + b == c);
+// console.log(a * a == d);
+// console.log(48 == '48'); // NOTE - not === (strict equality operator)
+
+
+
+// SECTION - The Farm:
+
+// 1. Declare a variable animal. Set it to be either 'cow' or something else.
+let animal = 'cow';
+
+// 2. Write code that wilil print out "mooooo" if the variable is equal to cow.
+
+function mooIfCow(creature) { 
+    if (creature.match('cow')) {
+        console.log('moooo');
+    } else {
+        console.log('Hey, you are not a cow!')
+    }
+};
+
+// mooIfCow(animal)
+
