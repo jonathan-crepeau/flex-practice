@@ -1,4 +1,4 @@
-// ANCHOR - Fundmental Reps
+// ANCHOR - Variables & Datatypes
 
 // SECTION - Q + A:
 
@@ -153,6 +153,8 @@ const canDrive = function(person) {
 
 
 
+// ANCHOR - LOOPS
+
 // SECTION - LOOPS: The Basics
 
 // 1. write a loop that will print out all the numbers from 0 to 10, inclusive.
@@ -236,3 +238,19 @@ const canDrive = function(person) {
 // }
 
 // console.log(sum);
+
+
+
+// ANCHOR - Arrays & Control Flow:
+
+// SECTION - Talk About It
+
+// 1. What are the things in an array called?
+// Items. These items can be of different data types.
+
+// 2. Do arrays guarantee those things will be in order?
+// No, it is not a guarantee that array items will be ordered. For example, numerical values being ordered smallest to largest. Instead, you !CAN! guarantee order by using Array.prototype methods to "sort" or otherwise manipulate the items.
+
+// 3. What real-life thing could you model with an array.
+// The age of every individaul in your family or friend group.
+
