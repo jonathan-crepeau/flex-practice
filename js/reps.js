@@ -166,7 +166,19 @@ const canDrive = function(person) {
 // }
 
 // 3. Write a loop that will print out every third number starting with 11 and go no higher than 400.
-for (let a = 11; a <= 400; a += 3) {
-    console.log(a);
-}
+// for (let a = 11; a <= 400; a += 3) {
+//     console.log(a);
+// }
 
+
+
+// SECTION - LOOPS: Get Even
+
+// 1. Print out the numbers that are even within the range of 1 - 100.
+// for (let a = 0; a <= 100; a++) {
+//     if (a % 2 == 0) {
+//         console.log(a + ' <-- is an even number');
+//     } else {
+//         console.log(a)
+//     }
+// }
