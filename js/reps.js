@@ -300,4 +300,29 @@ const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
 
 
 
-// SECTION 
+// SECTION Arrays - Mix It Up
+
+// const myArray = [5, 10, 500, 20];
+
+// 1. Add the string "Egon" to the end of this array. Add another string of your choice to the en of the array.
+// myArray.push("Egan", "Eragorn");
+
+// 2. Remove the 5 from the beginning of the array.
+// myArray.shift()
+
+// 3. Add the string "Bob Marley" to the beginning of the array.
+// myArray.unshift("Bob Marley");
+
+// 4. Remove the string of yoru choice from the end of the array.
+// myArray.pop();
+
+// 5. Reverse the array using Array.prototype.reverse(). Did you mutute the array? What does mutate mean? Did the .rerverse() method return anything?
+// myArray.reverse();
+
+// Yes, this method mutates the array. The reverse method transposes the elements of the calling array object in place, mutating the array, and returning a reference to the array.
+// Mutation is basically change the array itself instead of returning a new array with the newe changes.
+// console.log(myArray);
+
+
+
+// SECTION - 
