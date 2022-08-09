@@ -360,3 +360,62 @@ const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
 
 // littleBigOrMonkey(myVariable);
 
+
+
+// SECTION - Control Flow: Whats In Your Closet
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  
+  const thomsCloset = [
+    [
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],
+    [
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],
+    [
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+  // 1. Using bracket notation, log the sentece 'Kristyn is rocking that' + third item in her closet + 'today! to the console.
+
+//   console.log(`Kristyn is rocking that ` + kristynsCloset[2] + ' today!');
+
+  // 2. Add 'raybans' to her clset after 'yellow knit hat'.
+const lastItem = kristynsCloset.pop();
+kristynsCloset.push('raybans', lastItem);
+
+// 3. Modify 'yellow knit hat' to read 'stained knit hat'.
+kristynsCloset.splice(-3, 1, 'stained knit hat');
+
+// 4. Put together an outfit for Thom. Using bracket notation, access the first element in Thom's shirt array.
+// console.log(thomsCloset[0][0]);
+
+// 5. In the same way, access one item from Thom's pants array.
+// console.log(thomsCloset[1][0]);
+
+// 6. Access one item from Thom's pants array.
+// console.log(thomsCloset[2][0]);
+
+// 7. Log a sentence about what Thom's wearing.
+// console.log(`Thom is looking fierce with his ${thomsCloset[2][0]}, ${thomsCloset[1][0]} and ${thomsCloset[0][0]}.`);
+
+// 8. Get more specific about what kind of PJs Thoms wearing this winter -- modify his closet so that it's 'footie pajamas'.
+// thomsCloset[1].splice(2, 1, 'Footie Pajamas');
+// console.log(thomsCloset);
