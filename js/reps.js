@@ -268,13 +268,36 @@ const canDrive = function(person) {
 
 // Given the following array 'const randomThings = [1, 10, 'Hello", true]', do the following:
 
-const randomThings = [1, 10, "Hello", true];
+// const randomThings = [1, 10, "Hello", true];
 
 // 1. How do you access the 1st element in the array?
-console.log(randomThings[0]);
+// console.log(randomThings[0]);
 
 // 2. Change the value of "Hello to "World":
 // NOTE - Two options:
 // randomThings[2] = "World";
 // randomThings.splice(2, 1, 'World');
 // console.log(randomThings);
+
+
+
+// SECTION - Arrays: Change Values
+
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+
+// 1. What would you write to access the 3rd element of the array?
+// console.log(ourClass[2]);
+// ourClass.splice(2, 1, "Luna");
+// console.log(ourClass);
+
+// 2. Change the value of "Github" to "Octocat".
+// ourClass.splice(-1, 1, "Octocat");
+// console.log(ourClass);
+
+// 3. Add a new element, "Cloud City" to the array.
+// ourClass.push('Cloud City');
+// console.log(ourClass);
+
+
+
+// SECTION 
