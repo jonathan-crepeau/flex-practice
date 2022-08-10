@@ -464,3 +464,13 @@ kristynsCloset.splice(-3, 1, 'stained knit hat');
 
 // SECTION - Functions: getTwoLengths
 
+// 1. Write a function, 'getTwoLengths', that accepts two strings as parameters. Teh function shoudl return an array of numbers where each number is length of the corresponding string.
+
+const getTwoLengths = (string1, string2) => {
+    return new Array(string1.length, string2.length);
+}
+console.log(getTwoLengths('Michele', 'Jon'));
+
+
+
+// SECTION - 
