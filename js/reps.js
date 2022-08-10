@@ -428,7 +428,22 @@ kristynsCloset.splice(-3, 1, 'stained knit hat');
 
 // 1. Write a function printCool that accepts one parameter, 'name', as an argument. The function should print the name and a message saying that person is cool.
 
-const printCool = (name) => {
-    console.log(`${name} is cool.`);
-}
-printCool('Luna');
+// const printCool = (name) => {
+//     console.log(`${name} is cool.`);
+// }
+// printCool('Luna');
+
+
+
+// SECTION - Functions: calculateCube
+
+// 1. Write a function, 'calculateCube', that takes a single number and prints the volume of a cube made from that number.
+
+// const calculateCube = (number) => {
+//     console.log(number**3);
+// }
+// calculateCube(5);
+
+
+
+// SECTION - 
