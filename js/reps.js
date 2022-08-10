@@ -674,4 +674,32 @@ kristynsCloset.splice(-3, 1, 'stained knit hat');
 
 
 
+// SECTION - Loops
+
+let user = {
+  name: 'Jonathan',
+  email: 'jtcrepeau@gmail.com',
+  age: 34,
+  purchased: ['carbohydrates', 'peace of mind', 'merino jodhpurs'],
+}
+
+user.friend = {
+  name: 'Johanna',
+  age: 34,
+  location: 'Ithaca, NY, USA',
+  purchased: ['The One Ring', "a latte"],
+}
+
+// 1. Write a for loop that iterates over the User's purchased array and prints each to the console.
+// for (let a = 0; a < user.purchased.length; a++) {
+//   console.log(user.purchased[a]);
+// }
+
+// 2. Write a for loop that iterates over the friend's purchased array, and prints each element to the console.
+// for (let i = 0; i < user.friend.purchased.length; i++) {
+//   console.log(user.friend.purchased[i]);
+// }
+
+
+
 // SECTION - 
