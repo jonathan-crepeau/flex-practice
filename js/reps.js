@@ -446,4 +446,21 @@ kristynsCloset.splice(-3, 1, 'stained knit hat');
 
 
 
-// SECTION - 
+// SECTION - Functions: isVowel
+
+// 1. Write a function, 'isVowel', that takes a character and returns true if it s a vowel, false otherwise.
+
+// const isVowel = (singleString) => {
+//     const regex = /[aAeEiIoOuU]/;
+//     if (singleString.match(regex)) {
+//         console.log('A vowel');
+//     } else {
+//         console.log('not a vowel');
+//     }
+// }
+// isVowel('o');
+
+
+
+// SECTION - Functions: getTwoLengths
+
