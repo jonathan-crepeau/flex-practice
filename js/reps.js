@@ -466,11 +466,22 @@ kristynsCloset.splice(-3, 1, 'stained knit hat');
 
 // 1. Write a function, 'getTwoLengths', that accepts two strings as parameters. Teh function shoudl return an array of numbers where each number is length of the corresponding string.
 
-const getTwoLengths = (string1, string2) => {
-    return new Array(string1.length, string2.length);
-}
-console.log(getTwoLengths('Michele', 'Jon'));
+// const getTwoLengths = (string1, string2) => {
+//     return new Array(string1.length, string2.length);
+// }
+// console.log(getTwoLengths('Michele', 'Jon'));
 
 
 
-// SECTION - 
+// SECTION - Functions: getMultipleLengths
+
+// Write a function, 'getMultipleLengths', that accepts a single parameter as an argument -- an array of strings. The functions should return an array of numbers where ach number is the length of the corresponding string.
+
+// const getMultipleLengths = (array) => {
+//     const newArray = [];
+//     for (let a = 0; a < array.length; a++) {
+//         newArray.push(array[a].length)
+//     }
+//     return newArray;
+// }
+// console.log(getMultipleLengths(["Korra", "Mako", "Bolin", "Asami", "Tenzin", "Lin"]));
