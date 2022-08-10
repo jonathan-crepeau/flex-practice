@@ -504,10 +504,23 @@ kristynsCloset.splice(-3, 1, 'stained knit hat');
 
 // 1. Write a function, 'printLongestWord', that accepts a single argument -- an array of strings The method should return the longest word in teh array. In the case of a tie, the method should return the word that appears firt in the array.
 
-const printLongestWord = (array) => {
-  return array.reduce(function (a, b) {
-    return a.length > b.length ? a : b;
-  })
-}
+// const printLongestWord = (array) => {
+//   return array.reduce(function (a, b) {
+//     return a.length > b.length ? a : b;
+//   })
+// }
 
-console.log(printLongestWord(["Meredith", "George", "Christina", "Izzie", "Alex", "Doctor Miranda Bailey"]));
+// console.log(printLongestWord(["Meredith", "George", "Christina", "Izzie", "Alex", "Doctor Miranda Bailey"]));
+
+
+
+// SECTION - Functions: Reduce
+const array1 = [10, 7, 20, 3];
+
+
+const sumOfAll = array1.reduce(
+    (previousVal, currentVal) => previousVal + currentVal, 0
+);
+
+
+console.log(sumOfAll);
