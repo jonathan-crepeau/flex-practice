@@ -612,3 +612,29 @@ kristynsCloset.splice(-3, 1, 'stained knit hat');
 // console.log(getRandomElement(array2));
 
 
+
+// ANCHOR - OBJECTS
+
+// SECTION - Objects: Make a user object
+
+// Create an object called user. Write in key-value pairs for name, email, age and purchased. Set the value of purchased to an empty array. SEt the other values to whatever you would like.
+// let user = {
+//   name: 'Jonathan',
+//   email: 'jtcrepeau@gmail.com',
+//   age: 34,
+//   purchased: [],
+// }
+
+// The user changed their email address. Without changing the original user object, update the email value to a new email address.
+// user.email = 'crepeau.jonathan@gmail.com';
+
+// Our user has a birthday. Without changing the original user object, increment the age value using the postfix operater.
+// user.age ++;
+
+// Without changing the original user object, add a new key, 'location', to the object and give it a value.
+// user.location = 'San Anselmo, CA, USA';
+
+// Our user purchased some carbohydrates. Using the push() method, add the string carbohydrates to the purchased array.
+// user.purchased.push('carbohydrates', 'peace of mind', 'merino jodhpurs');
+// console.log(user.purchased[2]);
+// console.log(user);
