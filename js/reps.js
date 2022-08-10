@@ -553,9 +553,48 @@ kristynsCloset.splice(-3, 1, 'stained knit hat');
 
 // reverseWordOrder('Jonathan and Jeremy');
 
+// const reverseV2 = (string) => {
+//   return string.split(" ").reverse().join(" ");
+// }
 
-const reverseV2 = (string) => {
-  return string.split(" ").reverse().join(" ");
+// console.log(reverseV2('Jonathan is cool'));
+
+// const reverseWordOrder = (string) => {
+//   let reversedString = "";
+//   let word = "";
+//   for (let a = 0; a <= string.length; a++) {
+//     if (string[a] !== " " && string[a] !== undefined) {
+//       word += string[a];
+//     } else if (string[a] === " " || string[a] === undefined) {
+//       reversedString = word + " " + reversedString;
+//       word = "";
+//     }
+//   }
+//   return reversedString;
+// }
+
+// console.log(reverseWordOrder('Ishmael me call'));
+
+
+
+
+// SECTION - Math.random()
+
+// 1. Write a function that will return a random interger between 1 and 10.
+const between1And10 = () => {
+  return Math.floor(Math.random() * (10 - 1 + 1) + 1);
 }
+// console.log(between1And10());
 
-console.log(reverseV2('Jonathan is cool'));
+// 2. Write a function that will return a random integer between 10 and 100.
+const between10to100 = () => {
+  return Math.floor(Math.random() * (100 - 10 + 1) + 10);
+}
+// console.log(between10to100())
+
+// 3. Write a function that will return a random integer between 532 and 13267.
+const largeRando = () => {
+  return Math.floor(Math.random() * (13267 - 532 + 1) + 532);
+}
+// console.log(largeRando());
+
