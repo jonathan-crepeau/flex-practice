@@ -485,3 +485,15 @@ kristynsCloset.splice(-3, 1, 'stained knit hat');
 //     return newArray;
 // }
 // console.log(getMultipleLengths(["Korra", "Mako", "Bolin", "Asami", "Tenzin", "Lin"]));
+
+
+
+// SECTION - Functions: maxOfThree
+
+// 1. Define a function, 'maxOfThree', that takes three numbers as arguments and returns the largest of them. If all numbers are the same value, it doesn't matter which one is returned. If the largest two numbers are the same, one of them should be returned. Be sure to test it with largest value as each of the three parameters:
+
+// const maxOfThree = (num1, num2, num3) => {
+//   return Math.max(num1, num2, num3);
+// }
+
+// console.log(maxOfThree(209, 7, 283));
