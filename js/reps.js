@@ -702,4 +702,20 @@ user.friend = {
 
 
 
-// SECTION - 
+// SECTION - Objects: Functions can operate on objects
+
+// 1. WRite a single function, 'updateUser', that takes no parameters. When the function runs it should (a) increment the user's age by 1 and (b) make the user's name uppercase.
+// const updateUser = () => {
+//   user.age ++;
+//   user.name = user.name.toUpperCase();
+// }
+// updateUser(user);
+// console.log(user);
+
+// 2. Write a function, 'oldAndLoud', the performs the same actions as 'updateUser', but instead of hard-coding it have it execute on an object passed as an argument.
+// const oldAndLoud = (obj) => {
+//   obj.age ++;
+//   obj.name = obj.name.toUpperCase();
+// }
+// Loud(user);
+// console.log(user);
