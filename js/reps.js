@@ -638,3 +638,40 @@ kristynsCloset.splice(-3, 1, 'stained knit hat');
 // user.purchased.push('carbohydrates', 'peace of mind', 'merino jodhpurs');
 // console.log(user.purchased[2]);
 // console.log(user);
+
+
+
+// SECTION - Objects: Object within an object
+
+// let user = {
+//   name: 'Jonathan',
+//   email: 'jtcrepeau@gmail.com',
+//   age: 34,
+//   purchased: [],
+// }
+
+// 1. Write a friend object into your user object and give the friend a name, age, location and an empty purchase array.
+
+// user.friend = {
+//   name: 'Johanna',
+//   age: 34,
+//   location: 'Ithaca, NY, USA',
+//   purchased: [],
+// }
+
+// 2. Console.log just the friends name.
+// console.log(user.friend.name);
+
+// 3. Console.log just the friend's location.
+// console.log(user.friend.location);
+
+// 4. Change the friends age to 55.
+// user.friend.age = 55;
+
+// 5. Use push to add 'The one Ring' to the friend's purchased array.
+// user.friend.purchased.push('The One Ring', "a latte");
+// console.log(user.friend.purchased[1]);
+
+
+
+// SECTION - 
