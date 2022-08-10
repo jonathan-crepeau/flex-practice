@@ -419,3 +419,16 @@ kristynsCloset.splice(-3, 1, 'stained knit hat');
 // 8. Get more specific about what kind of PJs Thoms wearing this winter -- modify his closet so that it's 'footie pajamas'.
 // thomsCloset[1].splice(2, 1, 'Footie Pajamas');
 // console.log(thomsCloset);
+
+
+
+// ANCHOR - FUNCTIONS
+
+// SECTION - Function: printCool
+
+// 1. Write a function printCool that accepts one parameter, 'name', as an argument. The function should print the name and a message saying that person is cool.
+
+const printCool = (name) => {
+    console.log(`${name} is cool.`);
+}
+printCool('Luna');
