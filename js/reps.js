@@ -515,12 +515,45 @@ kristynsCloset.splice(-3, 1, 'stained knit hat');
 
 
 // SECTION - Functions: Reduce
-const array1 = [10, 7, 20, 3];
+// const array1 = [10, 7, 20, 3];
 
 
-const sumOfAll = array1.reduce(
-    (previousVal, currentVal) => previousVal + currentVal, 0
-);
+// const sumOfAll = array1.reduce(
+//     (previousVal, currentVal) => previousVal + currentVal, 0
+// );
 
 
-console.log(sumOfAll);
+// console.log(sumOfAll);
+
+
+
+// SECTION - Functions: transmogrify
+
+// 1. Write a JS function called 'transmorgrify'. This function should accept three numerical arguments, and return the sum of the first two numbers multiplied, raised to the power of the third number.
+
+// const transmogrify = (num1, num2, num3) => {
+//   return (num1 * num2) ** num3;
+// }
+
+// console.log(transmogrify(5, 3, 2));
+
+
+
+// SECTION - Functions: reverseWordOrder v2
+
+// 1. Without using split(), reverse(), or .join(), write a function 'reverseWordOrder' that accepts a signle argument, a string. The function should return a string with the order of the words reversed. Don't worry about punctuation.
+
+// const reverseWordOrder = (string) => {
+//   let newString = "";
+//   for (let b = string.length - 1; b >= 0; b--) {
+//     newString += string[b] 
+//   }
+//   console.log(newString)
+// }
+
+// reverseWordOrder('Jonathan and Jeremy');
+
+
+const reverseV2 = (string) => {
+  
+}
