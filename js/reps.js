@@ -581,20 +581,34 @@ kristynsCloset.splice(-3, 1, 'stained knit hat');
 // SECTION - Math.random()
 
 // 1. Write a function that will return a random interger between 1 and 10.
-const between1And10 = () => {
-  return Math.floor(Math.random() * (10 - 1 + 1) + 1);
-}
+// const between1And10 = () => {
+//   return Math.floor(Math.random() * (10 - 1 + 1) + 1);
+// }
 // console.log(between1And10());
 
 // 2. Write a function that will return a random integer between 10 and 100.
-const between10to100 = () => {
-  return Math.floor(Math.random() * (100 - 10 + 1) + 10);
-}
+// const between10to100 = () => {
+//   return Math.floor(Math.random() * (100 - 10 + 1) + 10);
+// }
 // console.log(between10to100())
 
-// 3. Write a function that will return a random integer between 532 and 13267.
-const largeRando = () => {
-  return Math.floor(Math.random() * (13267 - 532 + 1) + 532);
-}
+// 3. Write a function that will return a random number between 532 and 13267.
+// const largeRando = () => {
+//   return Math.random() * (13267 - 532 + 1) + 532;
+// }
 // console.log(largeRando());
+
+// 4. Write a function that will return a random !NUMBER! (not integer) between 1 and 10.
+// const number10To100 = () => {
+//   return Math.random() * (10 - 1) + 1;
+// }
+// console.log(number10To100());
+
+// 5. Write a function that will take an array as a parameter, and return a random element from that array.
+// const getRandomElement = (array) => {
+//   return array[Math.floor(Math.random() * ((array.length - 1) - 0 + 1) + 0)]
+// }
+// array2 = ["Korra", "Bolin", "Mako", "Asami", "Lin", "Tenzin"];
+// console.log(getRandomElement(array2));
+
 
