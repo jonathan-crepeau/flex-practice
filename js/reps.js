@@ -497,3 +497,17 @@ kristynsCloset.splice(-3, 1, 'stained knit hat');
 // }
 
 // console.log(maxOfThree(209, 7, 283));
+
+// console.log(maxOfThree(122, 122, 122));
+
+// SECTION - Functions: printLongestWorld
+
+// 1. Write a function, 'printLongestWord', that accepts a single argument -- an array of strings The method should return the longest word in teh array. In the case of a tie, the method should return the word that appears firt in the array.
+
+const printLongestWord = (array) => {
+  return array.reduce(function (a, b) {
+    return a.length > b.length ? a : b;
+  })
+}
+
+console.log(printLongestWord(["Meredith", "George", "Christina", "Izzie", "Alex", "Doctor Miranda Bailey"]));
