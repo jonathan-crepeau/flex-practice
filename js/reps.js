@@ -555,5 +555,7 @@ kristynsCloset.splice(-3, 1, 'stained knit hat');
 
 
 const reverseV2 = (string) => {
-  
+  return string.split(" ").reverse().join(" ");
 }
+
+console.log(reverseV2('Jonathan is cool'));
