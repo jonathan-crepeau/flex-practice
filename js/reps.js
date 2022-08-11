@@ -676,19 +676,19 @@ kristynsCloset.splice(-3, 1, 'stained knit hat');
 
 // SECTION - Loops
 
-let user = {
-  name: 'Jonathan',
-  email: 'jtcrepeau@gmail.com',
-  age: 34,
-  purchased: ['carbohydrates', 'peace of mind', 'merino jodhpurs'],
-}
+// let user = {
+//   name: 'Jonathan',
+//   email: 'jtcrepeau@gmail.com',
+//   age: 34,
+//   purchased: ['carbohydrates', 'peace of mind', 'merino jodhpurs'],
+// }
 
-user.friend = {
-  name: 'Johanna',
-  age: 34,
-  location: 'Ithaca, NY, USA',
-  purchased: ['The One Ring', "a latte"],
-}
+// user.friend = {
+//   name: 'Johanna',
+//   age: 34,
+//   location: 'Ithaca, NY, USA',
+//   purchased: ['The One Ring', "a latte"],
+// }
 
 // 1. Write a for loop that iterates over the User's purchased array and prints each to the console.
 // for (let a = 0; a < user.purchased.length; a++) {
@@ -719,3 +719,43 @@ user.friend = {
 // }
 // Loud(user);
 // console.log(user);
+
+
+
+// ANCHOR - Hungry for More
+
+// SECTION - Cat Combinator
+
+// 1. Define an object called 'cat1' that contains the following properties -- name, breed, age (a number).
+// const cat1 = {
+//   name: 'Luna',
+//   breed: 'black',
+//   age: 5,
+// };
+// console.log(cat1.age, cat1.breed);
+
+// 2. Define cat2 with the same properties.
+// const cat2 = {
+//   name: 'Bolin',
+//   breed: 'American Shorthair',
+//   age: 3,
+// };
+
+// 3. Write a function, 'combineCats', that has two parameters -- 'mama' and 'papa'. The function will take two arguments -- each a cat objet.
+
+// const combineCats = (mama, papa) => {
+//   console.log(mama, papa);
+// }
+// combineCats(cat1, cat2);
+
+// const combineCats = (mama, papa) => {
+//   return {
+//     name: `${mama.name}${papa.name}`,
+//     age: 1,
+//     breed: `${mama.breed}-${papa.breed}`,
+//   }
+// }
+
+// const test1 = combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2));
+// console.log(test1)
+
