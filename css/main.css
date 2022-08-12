@@ -1,3 +1,37 @@
-body {
-    background: plum;
+
+
+
+:root {
+    --clr-primary: #ee6352;
+    --clr-body: #333;
+    --clr-bg: #ddd;
 }
+
+body {
+    background: var(--clr-bg);
+    font-family: basic-sans, sans-serif;
+    height: 100vh;
+}
+
+main {
+    background: white;
+    padding: 5%;
+    margin: 10%;
+}
+
+h1 {
+    color: var(--clr-primary)
+}
+
+/* NOTE - 'outline' doesn't add to the size, 'border' does -- great for debugging  */
+p {
+    color: var(--clr-body);
+    outline: 3px solid red;
+}
+
+a {
+    outline: 3px solid orchid;
+}
+
+
+
