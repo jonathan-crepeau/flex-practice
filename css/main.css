@@ -15,8 +15,8 @@ body {
 
 main {
     background: white;
-    padding: 5%;
-    margin: 10%;
+    padding: 2%;
+    margin: 5%;
 }
 
 h1 {
@@ -29,9 +29,19 @@ p {
     outline: 3px solid red;
 }
 
-a {
+/* a {
     outline: 3px solid orchid;
+} */
+
+.bttn {
+    display: inline-block;
+    background: lightblue;
+    color: black;
+    padding: 75px 150px;
+    text-decoration: none;
 }
 
-
-
+.bttn:hover {
+    background: darkblue;
+    color: white;
+}
