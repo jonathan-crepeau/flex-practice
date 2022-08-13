@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NOTE - Remember, block-level elements (such as a div element) have a default width of 100%. That's why for 'body' below, I have to set a value for the 'height' property in order for the align-item's flexbox selector to work.  */
+
+body {
+    background-color: peachpuff;
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#parent-element {
+    background: paleturquoise;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    outline: 2px solid black;
+}
+
+.baby {
+    background: goldenrod;
+    color: purple;
+    outline: black 1px solid;
+    margin: 10px;
+    height: 30px;
+    width: 250px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
