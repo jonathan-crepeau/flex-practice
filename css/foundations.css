@@ -1,0 +1,25 @@
+/* SECTION - Universal Selector */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* SECTION - display: inline-block */
+/* NOTE - When child elements' display property is set to a value of inline-block or inline, an automatic margin appears. This can be resolved with flexbox styling, otherwise I've found it's easiest to use a negative margin to remove it: */
+
+#parent-element {
+    background: lightblue;
+    width: 600px;
+    height: 600px;
+}
+
+
+.child-element {
+    background-color: peachpuff;
+    outline: black solid 1px;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    margin: 0 -2px;
+}
