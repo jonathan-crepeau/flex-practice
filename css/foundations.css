@@ -54,7 +54,7 @@
 
 /* SECTION Flexbox: Children Properties */
 
-#parent-element {
+/* #parent-element {
     background-color: lightpink;
     height: 100vh;
     width: 100vw;
@@ -74,4 +74,40 @@
 
 .odd-duck {
     order: -1;
+} */
+
+
+
+/* ANCHOR - Position Property */
+
+/* main {
+    height: 300vh;
 }
+
+#parent-element {
+    position: relative;
+}
+
+.child-element {
+    background-color: lightblue;
+    height: 40px;
+    outline: black 1px dashed;
+} */
+
+/* NOTE - "Specificity Within the Cascade". If two classes are applied -- such as the case with the declaration above and below -- the second class will override the first. That is why the .odd-duck class declaration will only be applied to the child elements with said class if place below the .child-element class declaration (above). Also, see the !important CSS override, but be very sparing in its use.  */
+
+/* .odd-duck {
+    background-color: yellow ;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+#sticky-item {
+    background-color: yellow;
+    height: 40px;
+    position: sticky;
+    top: 100px;
+    left: 20px;
+    z-index: 2;
+} */
