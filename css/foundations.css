@@ -111,3 +111,48 @@
     left: 20px;
     z-index: 2;
 } */
+
+
+
+/* SECTION - position:sticky */
+
+html {
+    height: 300vh;
+    background-color: beige;
+}
+
+.container {
+    height: 100vh;
+    padding: 20px;
+    background-color: peachpuff;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    position: relative;
+    top: 150vh;
+}
+
+.child1 {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    position: sticky;
+    top: 0px;
+}
+
+.child2 {
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    position: sticky;
+    top: 4rem;
+}
+
+.child3 {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    position: sticky;
+    bottom: 20px;
+    align-self: center;
+}
