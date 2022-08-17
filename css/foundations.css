@@ -8,7 +8,7 @@
 /* SECTION - display: inline-block */
 /* NOTE - When child elements' display property is set to a value of inline-block or inline, an automatic margin appears. This can be resolved with flexbox styling, otherwise I've found it's easiest to use a negative margin to remove it: */
 
-#parent-element {
+/* #parent-element {
     background: lightblue;
     width: 600px;
     height: 600px;
@@ -22,4 +22,34 @@
     height: 50px;
     display: inline-block;
     margin: 0 -2px;
+} */
+
+
+
+/* SECTION Flexbox - Parent Container Propreties */
+
+/* NOTE - 'gap' property applies minimum gutter to both column and gap orientation. Versus, 'row-gap' and 'column-gap' only impact one of those, respectively, depending on how the flex-direction is set. */
+
+#parent-element {
+    background-color: lightskyblue;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.child-element {
+    background-color: brown;
+    outline: white solid 1px;
+    width: 200px;
+    height: 200px;
+    /* NOTE - Percentages as values for a flex container's children allows more accomodation of differing screen sizes / device sizes. */
+    /* width: 50%; */
+}
+
+
+
+/* SECTION */
